@@ -1,0 +1,19 @@
+PROVA em PHP: consultar.php (JsonW\Leitor por caminho, extensao FFI, libjsonw.so de Linux)
+Data da prova: 2026-11-16
+Ambiente: Linux x86_64, PHP 8.4.27 (FFI), sdk/libjsonw.so
+
+Comandos (na pasta do exemplo) e saida real:
+
+$ php -l consultar.php && php consultar.php 00000000000191 01310100
+No syntax errors detected in consultar.php
+CNPJ 00000000000191
+razao social: BANCO DO BRASIL SA
+situacao: Ativa (desde 2005-11-03T00:00:00.000000Z)
+capital social: 120000000000.00
+abertura: 1966-08-01T00:00:00.000000Z
+custodia: ok
+CEP 01310100
+logradouro: Avenida Paulista
+cidade: São Paulo/SP
+custodia: ok
+[saida 0]

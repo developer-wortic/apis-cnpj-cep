@@ -1,0 +1,22 @@
+PROVA em Rust: src/main.rs (crate jsonw do SDK, libjsonw.a de Linux, curl como processo)
+Data da prova: 2026-11-16
+Ambiente: Linux x86_64, cargo 1.100.0, crate jsonw 1.3.13 (sdk/rust), libjsonw.a de Linux (sdk/libjsonw.a)
+
+Comandos (na pasta do exemplo) e saida real:
+
+$ # (cargo no PATH) && cargo build --release && ./target/release/consultar 00000000000191 01310100
+     Locking 1 package to highest Rust 1.100.0 compatible version
+   Compiling jsonw v1.3.13 (/tmp/rust-consultar/sdk/rust)
+   Compiling consultar v0.1.0 (/tmp/rust-consultar)
+    Finished `release` profile [optimized] target(s) in 0.64s
+CNPJ 00000000000191
+razao social: BANCO DO BRASIL SA
+situacao: Ativa (desde 2005-11-03T00:00:00.000000Z)
+capital social: 120000000000.00
+abertura: 1966-08-01T00:00:00.000000Z
+custodia: ok
+CEP 01310100
+logradouro: Avenida Paulista
+cidade: São Paulo/SP
+custodia: ok
+[saida 0]
