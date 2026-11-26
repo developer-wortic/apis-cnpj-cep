@@ -1,0 +1,18 @@
+PROVA em Node: consultar.mjs (SDK em WebAssembly, abrir por bytes, sem addon nativo)
+Data da prova: 2026-11-16
+Ambiente: Linux x86_64, Node v26.13.0, sdk/jsonw.wasm
+
+Comandos (na pasta do exemplo) e saida real:
+
+$ node consultar.mjs 00000000000191 01310100
+CNPJ 00000000000191
+razao social: BANCO DO BRASIL SA
+situacao: Ativa (desde 2005-11-03T00:00:00.000000Z)
+capital social: 120000000000.00
+abertura: 1966-08-01T00:00:00.000000Z
+custodia: ok
+CEP 01310100
+logradouro: Avenida Paulista
+cidade: São Paulo/SP
+custodia: ok
+[saida 0]

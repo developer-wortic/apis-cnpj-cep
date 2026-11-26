@@ -1,0 +1,18 @@
+PROVA em Go: consultar.go (cgo sobre libjsonw.a, Leitor por caminho)
+Data da prova: 2026-11-16
+Ambiente: Linux x86_64, go 1.27.4, cgo com gcc 11.4, libjsonw.a de Linux (libjsonw.a)
+
+Comandos (na pasta do exemplo) e saida real:
+
+$ go vet ./... && go build -o consultar . && ./consultar 00000000000191 01310100
+CNPJ 00000000000191
+razao social: BANCO DO BRASIL SA
+situacao: Ativa (desde 2005-11-03T00:00:00.000000Z)
+capital social: 120000000000.00
+abertura: 1966-08-01T00:00:00.000000Z
+custodia: ok
+CEP 01310100
+logradouro: Avenida Paulista
+cidade: São Paulo/SP
+custodia: ok
+[saida 0]

@@ -1,0 +1,21 @@
+PROVA em C: consultar.c (CNPJ e CEP em jsonW binario, com jsonw_abrir_memoria)
+Data da prova: 2026-11-16
+Ambiente: Linux x86_64, gcc 15.3, libjsonw.a de Linux (sdk/libjsonw.a)
+
+Comandos (na pasta do exemplo) e saida real:
+
+$ cc -std=c11 -Wall -Wextra -o consultar consultar.c -Isdk sdk/libjsonw.a -lm -lpthread
+[saida 0]
+
+$ ./consultar 00000000000191 01310100
+CNPJ 00000000000191
+razao social: BANCO DO BRASIL SA
+situacao: Ativa (desde 2005-11-03T00:00:00.000000Z)
+capital social: 120000000000.00
+abertura: 1966-08-01T00:00:00.000000Z
+custodia: ok
+CEP 01310100
+logradouro: Avenida Paulista
+cidade: São Paulo/SP
+custodia: ok
+[saida 0]
